@@ -8,5 +8,6 @@ public class HelloWorld {
         System.out.print("Enter your name:");
         String name = console.next();
         System.out.print("Your name is " + name);
+        System.out.println("Hello");
     }
 }
