@@ -17,7 +17,7 @@ public class MattSchneidermanWeatherAnalysis {
         return length;
     }
 
-    public static void average(Scanner console, int length){//creates a for loop that asks user for high temp and prints
+    public static void average(Scanner console, int length) {//creates a for loop that asks user for high temp and prints
         // updates a cumulative sum variable and populates an array
         int[] temp = new int[length];
         double totalTemp = 0;
