@@ -43,15 +43,31 @@ public class MattSchneidermanWeatherAnalysisV2 {
         System.out.println(above + " days were above average.");
         HighLow(temp, length);
     }
-    public static void HighLow(int[] temp, int length){
+
+    public static void HighLow(int[] temp, int length) {
         System.out.println();
-        int firstCold, firstHot = temp[0];
-        int secondCold, secondHot = temp [1];
+        int firstCold = temp[0], firstHot = temp[0];
+        int secondCold = temp[1], secondHot = temp[1];
 
         System.out.print("Temperatures: [");
-        for(int i = 0; i < length - 1 ; i++){
+        for (int i = 0; i < length - 1; i++) {
             System.out.print(temp[i] + ", ");
         }
-        System.out.print(temp[length -1 ] + "]");
+        System.out.print(temp[length - 1] + "]");
+
+        for (int i = 2; i < temp.length; i++) {
+            if (temp[i] < firstCold) {
+                firstCold = temp[i];
+            } else if (temp[i] < secondCold) {
+                secondCold = temp[i];
+            } else if (temp[i] < firstHot) {
+                firstCold = temp[i];
+            } else if (temp[i] < secondHot) {
+                firstCold = temp[i];
+            }
+        }
+        System.out.println("");
+        System.out.println("Two coldest days: " + firstCold + ", " + secondCold);
+        System.out.println("Two coldest days: " + firstHot + ", " + secondHot);
     }
 }
