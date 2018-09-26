@@ -69,6 +69,5 @@ public class MattSchneidermanWeatherAnalysisV2 {
         System.out.println("");
         System.out.println("Two coldest days: " + firstCold + ", " + secondCold);
         System.out.println("Two coldest days: " + firstHot + ", " + secondHot);
-        //hello test
     }
 }
