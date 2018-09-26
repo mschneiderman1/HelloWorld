@@ -1,5 +1,6 @@
 package Chapter7Arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 //This program takes user input and calculates the average temperature for n days. Program also identifies how
@@ -54,5 +55,8 @@ public class MattSchneidermanWeatherAnalysisV2 {
             System.out.print(temp[i] + ", ");
         }
         System.out.print(temp[length - 1] + "]");
+        Arrays.sort(temp);
+        System.out.println("Two coldest days: " + temp[1] + ", " + temp[0]);
+        System.out.println("Two hottest days: " + temp[temp.length] + ", " + temp[temp.length - 1]);
     }
 }
