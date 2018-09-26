@@ -54,20 +54,7 @@ public class MattSchneidermanWeatherAnalysisV2 {
             System.out.print(temp[i] + ", ");
         }
         System.out.print(temp[length - 1] + "]");
-
-        for (int i = 2; i < temp.length; i++) {
-            if (temp[i] < firstCold) {
-                firstCold = temp[i];
-            } else if (temp[i] < secondCold) {
-                secondCold = temp[i];
-            } else if (temp[i] < firstHot) {
-                firstCold = temp[i];
-            } else if (temp[i] < secondHot) {
-                firstCold = temp[i];
-            }
-        }
-        System.out.println("");
-        System.out.println("Two coldest days: " + firstCold + ", " + secondCold);
-        System.out.println("Two coldest days: " + firstHot + ", " + secondHot);
+        sort(temp);
+        System.out.println(Arrays.toString(temp);
     }
 }
