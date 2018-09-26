@@ -46,10 +46,9 @@ public class MattSchneidermanWeatherAnalysisV2 {
     }
 
     public static void HighLow(int[] temp, int length) {
+        //prints the array of temps and then sorts it
+        //finally it prints the two coldest and hottest days
         System.out.println();
-        int firstCold = temp[0], firstHot = temp[0];
-        int secondCold = temp[1], secondHot = temp[1];
-
         System.out.print("Temperatures: [");
         for (int i = 0; i < length - 1; i++) {
             System.out.print(temp[i] + ", ");
@@ -58,6 +57,5 @@ public class MattSchneidermanWeatherAnalysisV2 {
         Arrays.sort(temp);
         System.out.println("Two coldest days: " + temp[0] + ", " + temp[1]);
         System.out.println("Two hottest days: " + temp[temp.length - 1] + ", " + temp[temp.length - 2]);
-        //test comment
     }
 }
