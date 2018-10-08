@@ -6,7 +6,7 @@ public class MattSchneidermanRandomHatV2 {
     public static void main(String[] args) {//This program creates the first round for a tournament with n number
         //of teams. This program will only work with a positive and an even number
         int teams = intro();
-        int[] teamsArray = matchupSelection(teams);
+        int[] teamsArray = array(teams);
         printMatches(teamsArray, teams);
 
     }
@@ -26,7 +26,7 @@ public class MattSchneidermanRandomHatV2 {
         return length;
     }
 
-    public static int[] matchupSelection(int teams) {
+    public static int[] array(int teams){ // This method creates the array and populates it 1 - N (N = number of teams)
         int[] teamsArray = new int[teams];
         for (int i = 0; i < teams; i++) {
             teamsArray[i] = i + 1;
@@ -34,22 +34,25 @@ public class MattSchneidermanRandomHatV2 {
         return teamsArray;
     }
 
-    public static void printMatches(int[] teamsArray, int teams) {
+    public static void printMatches(int[] teamsArray, int teams){
+        //This method selects teams at random and matches them up
         System.out.println();
         System.out.println("Round 1:");
-        int test = 0;
+        int forVS = 0;
         for (int i = 1; i <= teamsArray.length; i++) {
             int x = (int) (Math.random() * teams);
-            while (teamsArray[x] == 0) {
+            while (teamsArray[x] == 0) { // This loop keeps generating a new index until a team that hasn't been selected
+                //is chosen.
                 x = (int) (Math.random() * teams);
             }
             System.out.print(teamsArray[x]);
             teamsArray[x] = 0;
-            if (test == 0) {
+            if (forVS == 0) {
+                // This prints the "VS." only if forVS is 0 which idicates its the first team in the matchup
                 System.out.print(" VS. ");
-                test++;
+                forVS++;
             } else {
-                test = 0;
+                forVS = 0;
                 System.out.println();
             }
         }
