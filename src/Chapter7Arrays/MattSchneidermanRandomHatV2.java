@@ -41,17 +41,18 @@ public class MattSchneidermanRandomHatV2 {
         int forVS = 0;
         for (int i = 1; i <= teamsArray.length; i++) {
             int x = (int) (Math.random() * teams);
-            while (teamsArray[x] == 0) { // This loop keeps generating a new index until a team that hasn't been selected
+            while(teamsArray[x] == 0) { // This loop keeps generating a new index until a team that hasn't been selected
                 //is chosen.
                 x = (int) (Math.random() * teams);
             }
             System.out.print(teamsArray[x]);
             teamsArray[x] = 0;
             if (forVS == 0) {
-                // This prints the "VS." only if forVS is 0 which idicates its the first team in the matchup
+                // This prints the "VS." only if forVS is 0 which indicates its the first team in the pair
                 System.out.print(" VS. ");
                 forVS++;
-            } else {
+            }
+            else{
                 forVS = 0;
                 System.out.println();
             }
