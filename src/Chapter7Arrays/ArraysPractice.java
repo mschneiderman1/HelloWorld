@@ -7,6 +7,7 @@ public class ArraysPractice {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         randomArray(console);
+
     }
     public static void first(){
         //Step1: declare a variable
@@ -17,7 +18,6 @@ public class ArraysPractice {
             numbers1[i] = i + 1;
         }
         System.out.println(Arrays.toString(numbers1)); //after populated the array
-
         //OR
         //Step1&2; declare and initialize
         int[] numbers2 = {1, 2, 3, 4, 5};
@@ -39,3 +39,4 @@ public class ArraysPractice {
         System.out.println(Arrays.toString(randoAarray));
     }
 }
+
