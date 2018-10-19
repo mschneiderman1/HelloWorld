@@ -42,10 +42,10 @@ public class MattSchneidermanWeatherAnalysisV2 {
             }
         }
         System.out.println(above + " days were above average.");
-        HighLow(temp, length);
+        highLow(temp, length);
     }
 
-    public static void HighLow(int[] temp, int length) {
+    public static void highLow(int[] temp, int length) {
         //prints the array of temps and then sorts it
         //finally it prints the two coldest and hottest days
         System.out.println();
