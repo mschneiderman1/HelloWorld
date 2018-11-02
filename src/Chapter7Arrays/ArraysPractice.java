@@ -9,7 +9,9 @@ public class ArraysPractice {
         //randomArray(console);
         int number = 669260267;
         int mode = mode(number);
-        System.out.println(mode);
+        //System.out.println(average);
+        String[] x = {"abnafdgvjsh",  "ahndbiksssssssjbe", "sassssds" };
+        System.out.println(average(x));
 
     }
     public static void first(){
@@ -82,12 +84,14 @@ public class ArraysPractice {
         int max3 = Math.max(count9, count0);
         int maxFinal = Math.max(max1, Math.max(max2, max3));
         return maxFinal;
-
-
-
-
-
-
+    }
+    public static double average(String[] a){
+        int average = 0;
+        for(int i = 0; i < a.length; i++){
+            String x = a[i];
+            average += x.length();
+        }
+        return (double)(average / a.length);
     }
 }
 
