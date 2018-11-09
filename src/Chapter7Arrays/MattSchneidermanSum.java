@@ -14,7 +14,9 @@ public class MattSchneidermanSum {
     }
 
     public static void createArray(Scanner input){
+        int numberOfLines = 0;
         while(input.hasNextLine()){
+            numberOfLines++;
             String lineString = input.nextLine();
             Scanner line1 = new Scanner(lineString);
             int x = 0;
@@ -32,10 +34,14 @@ public class MattSchneidermanSum {
                     System.out.print(line.next() + " = ");
                 }
             }
-            System.out.println();
             int[][] array = new int[column + 2][length + (column * column)];
             popArray(array, lineString);
         }
+        System.out.println();
+        System.out.println();
+        System.out.println("Total lines = " + numberOfLines);
+
+
     }
 
     public static void popArray(int[][] array, String lineString) {
@@ -51,12 +57,6 @@ public class MattSchneidermanSum {
                 column--;
             }
             row++;
-        }
-        for (int row1 = 0; row1 < array.length; row1++) {
-            for (int column1 = 0; column1 < array[row1].length; column1++) {
-                System.out.print(array[row1][column1] + " ");
-            }
-            System.out.println();
         }
         addColumns(array);
     }
@@ -79,13 +79,22 @@ public class MattSchneidermanSum {
             columnAt--;
             sum = 0;
         }
-        System.out.println();
-        for(int row1 = 0; row1 < array.length; row1++){
-            for(int column1 = 0; column1 < array[row1].length; column1++){
-                System.out.print(array[row1][column1] + " ");
+        printSum(array);
+    }
+    public static void printSum(int[][] array){
+        int indicator = 0;
+        for(int i = 0; i < array[0].length; i++){
+            if(array[array.length - 1][i] != 0){
+                indicator++;
             }
-            System.out.println();
+            if(indicator != 0){
+                System.out.print(array[array.length - 1][i]);
+            }
         }
+        if(indicator == 0){
+            System.out.print(0);
+        }
+        System.out.println();
     }
 
 }
