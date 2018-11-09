@@ -2,26 +2,100 @@ package Chapter7Arrays;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MattSchneidermanSum {
-    public static final String file = "sum.txt";
+    public static final int length = 25;
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner input = new Scanner(new File("sum.txt"));
+        createArray(input);
 
-    public static void main(String[] args) throws FileNotFoundException{
-        Scanner fileScanner = new Scanner(new File("src/Chapter&Arrays/sum.txt")); //reads file
-        createArray(fileScanner);
     }
-    public static void createArray(Scanner fileScanner){
-        while(fileScanner.hasNextLine()){
-            Scanner line = new Scanner(fileScanner.nextLine());
-            int numberOfToken = 0;
-            while(line.hasNext()){
 
-
+    public static void createArray(Scanner input){
+        while(input.hasNextLine()){
+            String lineString = input.nextLine();
+            Scanner line1 = new Scanner(lineString);
+            int x = 0;
+            while (line1.hasNext()){
+                x++;
+                line1.next();
             }
+            int column = x;
+            Scanner line = new Scanner(lineString);
+            while(line.hasNext()){
+                if(x != 1) {
+                    System.out.print(line.next() + " + ");
+                    x--;
+                }else{
+                    System.out.print(line.next() + " = ");
+                }
+            }
+            System.out.println();
+            int[][] array = new int[column + 2][length + (column * column)];
+            popArray(array, lineString);
         }
     }
+
+    public static void popArray(int[][] array, String lineString) {
+        int row = 0;
+        Scanner line = new Scanner(lineString);
+        while (line.hasNext()) {
+            int column = array[row].length - 1;
+            String num = line.next();
+            for (int i = num.length() - 1; i >= 0; i--) {
+                char number = num.charAt(i);
+                int digit = number - '0';
+                array[row][column] = digit;
+                column--;
+            }
+            row++;
+        }
+        for (int row1 = 0; row1 < array.length; row1++) {
+            for (int column1 = 0; column1 < array[row1].length; column1++) {
+                System.out.print(array[row1][column1] + " ");
+            }
+            System.out.println();
+        }
+        addColumns(array);
+    }
+    public static void addColumns(int[][] array){
+        int columnAt = array[0].length - 1;
+        int sum = 0;
+        int reman = 0;
+        while(columnAt > 0){
+            for(int i = 0; i < array.length - 1; i++) {
+                sum += array[i][columnAt];
+            }
+            if(sum >= 10) {
+                reman = sum % 10;
+                array[array.length - 1][columnAt] = reman;
+                sum = sum / 10;
+                array[array.length - 2][columnAt - 1] = sum;
+            }else{
+                array[array.length - 1][columnAt] = sum;
+            }
+            columnAt--;
+            sum = 0;
+        }
+        System.out.println();
+        for(int row1 = 0; row1 < array.length; row1++){
+            for(int column1 = 0; column1 < array[row1].length; column1++){
+                System.out.print(array[row1][column1] + " ");
+            }
+            System.out.println();
+        }
+    }
+
 }
+
+/* for(int row1 = 0; row1 < array.length; row1++){
+            for(int column1 = 0; column1 < array[row1].length; column1++){
+                System.out.print(array[row1][column1] + " ");
+            }
+            System.out.println();
+        } */
 
 
 //Step 1: Import the file and create a loop that reads each line one at a time
