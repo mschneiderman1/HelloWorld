@@ -2,18 +2,19 @@ package Chapter7Arrays;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class MattSchneidermanSum {
     public static final int length = 25;
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner input = new Scanner(new File("sum.txt"));
+        //This program takes a file of numbers and produces the sum of the number on the line.
+        //This program works for numbers of any length. You just need to update the class constant
+        Scanner input = new Scanner(new File("sum.txt")); //imports file
         createArray(input);
 
     }
 
-    public static void createArray(Scanner input){
+    public static void createArray(Scanner input){ // This method creates the array for the line
         int numberOfLines = 0;
         while(input.hasNextLine()){
             numberOfLines++;
@@ -26,7 +27,7 @@ public class MattSchneidermanSum {
             }
             int column = x;
             Scanner line = new Scanner(lineString);
-            while(line.hasNext()){
+            while(line.hasNext()){ // This prints the equation with out the sum
                 if(x != 1) {
                     System.out.print(line.next() + " + ");
                     x--;
@@ -34,7 +35,7 @@ public class MattSchneidermanSum {
                     System.out.print(line.next() + " = ");
                 }
             }
-            int[][] array = new int[column + 2][length + (column * column)];
+            int[][] array = new int[column + 2][length + (column * column)]; //initalizes the array
             popArray(array, lineString);
         }
         System.out.println();
@@ -44,10 +45,10 @@ public class MattSchneidermanSum {
 
     }
 
-    public static void popArray(int[][] array, String lineString) {
+    public static void popArray(int[][] array, String lineString) {// this method populates the array
         int row = 0;
         Scanner line = new Scanner(lineString);
-        while (line.hasNext()) {
+        while (line.hasNext()){ //it starts at the back of the string and moves toward the front
             int column = array[row].length - 1;
             String num = line.next();
             for (int i = num.length() - 1; i >= 0; i--) {
@@ -60,7 +61,7 @@ public class MattSchneidermanSum {
         }
         addColumns(array);
     }
-    public static void addColumns(int[][] array){
+    public static void addColumns(int[][] array){//this adds up the columns
         int columnAt = array[0].length - 1;
         int sum = 0;
         int reman = 0;
@@ -68,7 +69,7 @@ public class MattSchneidermanSum {
             for(int i = 0; i < array.length - 1; i++) {
                 sum += array[i][columnAt];
             }
-            if(sum >= 10) {
+            if(sum >= 10){// this deals with any overflow
                 reman = sum % 10;
                 array[array.length - 1][columnAt] = reman;
                 sum = sum / 10;
@@ -81,7 +82,8 @@ public class MattSchneidermanSum {
         }
         printSum(array);
     }
-    public static void printSum(int[][] array){
+    public static void printSum(int[][] array){// This method prints the last row of the array with out
+        // all the 0s
         int indicator = 0;
         for(int i = 0; i < array[0].length; i++){
             if(array[array.length - 1][i] != 0){
@@ -99,13 +101,8 @@ public class MattSchneidermanSum {
 
 }
 
-/* for(int row1 = 0; row1 < array.length; row1++){
-            for(int column1 = 0; column1 < array[row1].length; column1++){
-                System.out.print(array[row1][column1] + " ");
-            }
-            System.out.println();
-        } */
 
+//Method
 
 //Step 1: Import the file and create a loop that reads each line one at a time
 
