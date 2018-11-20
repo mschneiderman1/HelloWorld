@@ -8,7 +8,6 @@ public class MattSchneidermanMode {
         Scanner console = new Scanner(System.in);
         System.out.print("Enter your number: "); //prompts user for number
         int num = console.nextInt();
-        mostFrequentDigit(num);
         System.out.println("The mode of " + num + " is " + mostFrequentDigit(num));
     }
 
