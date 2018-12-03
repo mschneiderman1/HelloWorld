@@ -1,6 +1,6 @@
 package Ch8Classes;
 
-public class PointV1 {
+public class PointV2 {
     //These are the state fields (variables)
     public int x;
     public int y;
@@ -18,7 +18,7 @@ public class PointV1 {
 
     }
     //non void methods
-    public double distance(PointV1 other){
+    public double distance(PointV2 other){
         int dx = x - other.x;
         int dy = y - other.y;
         return Math.sqrt((dx*dx) + (dy * dy));
