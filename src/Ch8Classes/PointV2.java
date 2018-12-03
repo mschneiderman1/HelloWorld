@@ -24,6 +24,10 @@ public class PointV2 {
         return Math.sqrt((dx*dx) + (dy * dy));
     }
     public double distanceFromOrigin(){
+
         return Math.sqrt((x*x) + (y*y));
+    }
+    public String toString(){
+        return "(" + x + "," + y + ")";
     }
 }

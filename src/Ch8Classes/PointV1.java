@@ -1,6 +1,8 @@
 package Ch8Classes;
 
-public class PointV1 {
+import java.awt.*;
+
+public class PointV1{
     //These are the state fields (variables)
     public int x;
     public int y;

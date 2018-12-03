@@ -14,7 +14,5 @@ public class PointClient {
         p2.y = 25;
         System.out.println(p2.distance(p1));
         System.out.println(p2.distanceFromOrigin());
-
-        PointV1 p3 = new PointV
     }
 }
