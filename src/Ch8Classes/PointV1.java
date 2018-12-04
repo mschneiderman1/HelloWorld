@@ -8,7 +8,7 @@ public class PointV1{
     public int y;
 
     //behaviors below (methods)
-    // void methods
+    // void (getter) methods below (void methods)
     public void translate(int dx, int dy){
         x += dx;
         y += dy;
@@ -19,7 +19,7 @@ public class PointV1{
         y = newY;
 
     }
-    //non void methods
+    //getter (accessor) methods below (non void methods)
     public double distance(PointV1 other){
         int dx = x - other.x;
         int dy = y - other.y;
