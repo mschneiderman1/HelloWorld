@@ -3,18 +3,25 @@ package Ch8Classes;
 public class PointV4 {
     private int x;
     private int y;
+    private static int objectCount; //static fields reside at the class level not at the object level
 
     //This is the constructor
     //A constructor does NOT have a return type
     //it gets called implicitly when an object is created
     public PointV4(int x, int y){
+        objectCount++;
         this.x = x;
         this.y = y;
     }
     public PointV4(){
+        objectCount++;
         x = 0;
         y = 0;
     }
+    public static int getObjectCount(){
+        return objectCount;
+    }
+
     //setters (mutator) methods below
     public void setX(int x){
         this.x = x;
