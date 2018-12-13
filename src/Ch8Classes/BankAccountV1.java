@@ -17,7 +17,7 @@ public class BankAccountV1 {
         this.Address = Address;
         this.DOB = DOB;
     }
-    public BankAccountV1(String name, String ssn, String Address, String DOB, int pin, int balance;){
+    public BankAccountV1(String name, String ssn, String Address, String DOB, int pin, int balance){
         this.name = name;
         this.ssn = ssn;
         this.Address = Address;
@@ -56,7 +56,7 @@ public class BankAccountV1 {
     //toString
 
     public String toString(){
-        return "A";
+        return "Name: " + name + " SSN: " + ssn + " Address: " + Address + " DOB: " + DOB;
     }
 
 }
