@@ -56,7 +56,7 @@ public class BankAccountV1 {
     //toString
 
     public String toString(){
-        return "Name: " + name + " SSN: " + ssn + " Address: " + Address + " DOB: " + DOB;
+        return "Name: " + name + " Balance:" + balance;
     }
 
 }
