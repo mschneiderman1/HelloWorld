@@ -6,5 +6,7 @@ public class BankAccountClientV1{
                 "940 Fairway Lane", "11012001");
         Matt.Deposit(1000000);
         System.out.println(Matt);
+        Matt.Withdrawl(200);
+        System.out.println(Matt);
     }
 }

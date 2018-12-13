@@ -50,13 +50,13 @@ public class BankAccountV1 {
         this.balance += cash;
     }
     public void Withdrawl(double amount){
-        this.balance -= balance;
+        this.balance -= amount;
     }
 
     //toString
 
     public String toString(){
-        return "Name: " + name + " Balance:" + balance;
+        return "Name: " + name + " Balance: " + balance;
     }
 
 }
