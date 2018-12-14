@@ -56,7 +56,7 @@ public class BankAccountV1 {
     //toString
 
     public String toString(){
-        return "Name: " + name + " Balance: " + balance;
+        return "Name: " + name + "\nBalance: " + balance + "\n";
     }
 
 }
