@@ -26,23 +26,28 @@ public class BankAccountV1 {
         this.balance = balance;
     }
     //getters
-    public String getName(){
-        return name;
-    }
-    public String getSsn(){
-        return ssn;
-    }
-    public String getAddress(){
-        return Address;
-    }
-    public String getDOB(){
-        return DOB;
-    }
-    public double getBalance(){
+    public double getBalance() {
         return balance;
     }
-    public int getPin(){
+
+    public int getPin() {
         return pin;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSsn() {
+        return ssn;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public String getDOB() {
+        return DOB;
     }
 
     //setter
