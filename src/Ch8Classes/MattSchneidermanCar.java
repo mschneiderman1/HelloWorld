@@ -14,11 +14,13 @@ public class MattSchneidermanCar {
     private int MPG;
 
     //constructor
-    public MattSchneidermanCar(int numSeats, String color, double price, String brand) {
+    public MattSchneidermanCar(int numSeats, String color, double price, String brand, int tankSize, int MPG) {
         this.numSeats = numSeats;
         this.color = color;
         this.price = price;
         this.brand = brand;
+        this.tankSize = tankSize;
+        this.MPG = MPG;
     }
 
     //getters
@@ -97,7 +99,7 @@ public class MattSchneidermanCar {
 
     public String toString() {
         return "This is a " + color + " " + brand + "car. It can hold " + tankSize +
-                "gallons and gets " + MPG + "miles per gallon. The price of the car is $"
+                " gallons and gets " + MPG + " miles per gallon. The price of the car is $"
                 + price + ".";
     }
 }

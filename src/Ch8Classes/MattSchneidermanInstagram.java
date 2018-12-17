@@ -76,8 +76,8 @@ public class MattSchneidermanInstagram {
     }
 
     public String toString(){
-        return "This is " + name + "'s account. Their bio is " + Bio + " . They have "
+        return "This is " + name + "'s account. Their bio is " + Bio + ". They have "
                 + numFollowers + "followers, are following" + numFollowing + "people and they have "
-                + numposts + "posts.";
+                + numposts + " posts.";
     }
 }

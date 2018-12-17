@@ -14,10 +14,16 @@ public class MattSchneidermanBicycle {
     private boolean isInMotion;
 
     //constructor
-    public MattSchneidermanBicycle(double price, boolean isPurchased, String condition,
-                                   int ageRange, String color) {
+
+    public MattSchneidermanBicycle(double price, boolean isPurchased, String condition, int ageRange, String color) {
+        this.price = price;
+        this.isPurchased = isPurchased;
+        this.condition = condition;
+        this.ageRange = ageRange;
+        this.color = color;
     }
-     //getters
+
+    //getters
     public double getPrice() {
         return price;
     }
@@ -84,6 +90,6 @@ public class MattSchneidermanBicycle {
     public String toString(){
         return "This is a " + color + " bicycle. That is in " + condition +
                 " condition. The age range for this bike is above " + ageRange +
-                ". The price for this bike is " + price;
+                ". The price for this bike is $" + price + ".";
     }
 }
