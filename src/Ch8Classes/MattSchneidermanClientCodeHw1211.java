@@ -22,6 +22,10 @@ public class MattSchneidermanClientCodeHw1211{
                 25, 13);
         System.out.println(Ferari.toString());
 
+        MattSchneidermanStudent Jacob = new MattSchneidermanStudent("Jacob Ross", 16, 11052002,
+                "940 Fairway Lane", 'F');
+        System.out.println(Jacob.toString());
+
 
 
     }
