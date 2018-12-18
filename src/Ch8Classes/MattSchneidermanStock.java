@@ -5,6 +5,8 @@ public class MattSchneidermanStock {
     private int shares;
     private double costOfShare;
     private double totalValue;
+    private double newCostOfStock;
+    private double profit;
 
     //constructor
     public MattSchneidermanStock(String symbol, int shares,
@@ -29,9 +31,17 @@ public class MattSchneidermanStock {
         this.shares += shares;
         totalValue += (costOfShare * shares);
     }
+    public void sell(int shares){
+        this.shares -= shares;
+        totalValue -= (costOfShare * shares);
+    }
+    public void profit(){
+        newCostOfStock = costOfShare * 1.045;
+        profit = (newCostOfStock * shares) - (shares * costOfShare);
+    }
     public String toString(){
         return "You own " + shares + " shares of " + symbol
-                + " stock. One share cost $" + costOfShare + ". The total value of your stock is $" +
-                totalValue + ".";
+                + " stock. One share cost $" + costOfShare + ". The total value of you paid for your stock is $" +
+                totalValue + ". Your profit is $" + profit;
     }
 }
