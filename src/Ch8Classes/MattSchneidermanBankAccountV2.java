@@ -1,7 +1,7 @@
 //This program simulates a very simple bank account
 package Ch8Classes;
 
-public class MattSchneidermanBankAccountV1 {
+public class MattSchneidermanBankAccountV2 {
     //State fields below
     private double balance;
     private int pin;
@@ -11,13 +11,13 @@ public class MattSchneidermanBankAccountV1 {
     private String DOB;
 
     //constructors below
-    public MattSchneidermanBankAccountV1(String name, String ssn, String Address, String DOB){
+    public MattSchneidermanBankAccountV2(String name, String ssn, String Address, String DOB){
         this.name = name;
         this.ssn = ssn;
         this.Address = Address;
         this.DOB = DOB;
     }
-    public MattSchneidermanBankAccountV1(String name, String ssn, String Address, String DOB, int pin, double balance){
+    public MattSchneidermanBankAccountV2(String name, String ssn, String Address, String DOB, int pin, double balance){
         this.name = name;
         this.ssn = ssn;
         this.Address = Address;
