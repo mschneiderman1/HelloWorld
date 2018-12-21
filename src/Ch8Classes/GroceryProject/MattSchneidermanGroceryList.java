@@ -29,5 +29,6 @@ public class MattSchneidermanGroceryList{
         for(int i = 0; i < numItems; i++){
             myList +=  "Item : " + i + "\t" + list[i].toString();
         }
+        return myList;
     }
 }
