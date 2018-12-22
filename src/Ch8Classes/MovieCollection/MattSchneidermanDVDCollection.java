@@ -26,6 +26,7 @@ public class MattSchneidermanDVDCollection {
         }
     }
     public String toString(){
+        totalCost = 0.0;
         for(int i = 0; i < count; i++){
             totalCost += list[i].getCost();
         }
@@ -35,8 +36,8 @@ public class MattSchneidermanDVDCollection {
 
         }        double avergaeCost = totalCost / count;
         return "My DVD Collection\n\n" + "Number of DVDs: " + count +
-                "\nTotal cost: $" + totalCost + "\nAverage Cost: $" +
-                avergaeCost + "\n\n" + "DVD List: \n\n" + dvdList;
+                "\nTotal cost: $" + (((double)Math.round(totalCost  * 100)) / 100)  + "\nAverage Cost: $" +
+                (((double)Math.round(avergaeCost * 100)) / 100) + "\n\n" + "DVD List: \n\n" + dvdList;
     }
 
 
