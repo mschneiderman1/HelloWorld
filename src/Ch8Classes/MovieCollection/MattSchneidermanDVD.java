@@ -15,6 +15,9 @@ public class MattSchneidermanDVD{
         this.blueray = blueray;
     }
 
+    public double getCost(){
+        return cost;
+    }
     public String toString(){
         String ifBlueray = "";
         if(blueray == true){
