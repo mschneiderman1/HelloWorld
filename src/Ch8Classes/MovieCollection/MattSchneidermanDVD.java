@@ -23,6 +23,6 @@ public class MattSchneidermanDVD{
         if(blueray == true){
             ifBlueray = "Blu-Ray";
         }
-        return "$" + cost + "\t" + year + "\t" + title + " \t" + director + "\t" + ifBlueray;
+        return "$" + cost + "\t" + year + "\t" + title + "  \t" + director + "\t" + ifBlueray;
     }
 }

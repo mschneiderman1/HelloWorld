@@ -8,7 +8,7 @@ public class MattSchneidermanMovieCollectionClient {
                 24.95, true));
         Matt.addDVD(new MattSchneidermanDVD("District 9", "Neill Bloomkamp", 2009,
                 19.95, false));
-        Matt.addDVD(new MattSchneidermanDVD("Iron Man", "Jon Favreau", 2008,
+        Matt.addDVD(new MattSchneidermanDVD("Iron Man   ", "Jon Favreau", 2008,
                 15.95, false));
         Matt.addDVD(new MattSchneidermanDVD("All About Eve", "Joseph Mankiewicz", 1950,
                 17.50, false));
