@@ -33,5 +33,11 @@ public class ArrayListExercise {
             System.out.print(list.get(i)  + " ");
         }
         System.out.println();
+        for(int i = 0; i < list.size(); i++){
+            if(!Character.isUpperCase(list.get(i).charAt(0))){
+                System.out.print(list.get(i) + " ");
+
+            }
+        }
     }
 }
