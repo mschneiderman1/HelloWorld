@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class IntroToArrayList {
     public static void main(String[] args) {
-        ArrayList<String> students = new ArrayList<String>();
+        /*ArrayList<String> students = new ArrayList<String>();
         System.out.println(students);
         students.add("Matt");
         System.out.println(students);
@@ -21,7 +21,7 @@ public class IntroToArrayList {
                 System.out.println("A student with the letter M " +
                         "exists in the ArrayList");
             }
-        }
-
+        }*/
     }
 }
+
