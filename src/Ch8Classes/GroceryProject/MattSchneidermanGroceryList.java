@@ -33,7 +33,7 @@ public class MattSchneidermanGroceryList{
         for(int i = 0; i < numItems; i++){
             totalCost += list[i].getCost();
         }
-        myList += "\nTotal Cost: " + totalCost;
+        myList += "\nTotal Cost: $" + totalCost + "0";
         return myList;
         //ADD: total cost of everything that is in the basket
     }

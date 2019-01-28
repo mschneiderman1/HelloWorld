@@ -25,7 +25,7 @@ public class MattSchneidermanGroceryItemOrder{
     }
     public String toString(){
         return "Name: " + name +"\tQuantity: " + quantity +
-                "\tPricePerUnit: $" + ppu + "\tTotal Cost: $"
-                + getCost() + "\n";
+                "\tPricePerUnit: $" + ppu + "0\tTotal Cost: $"
+                + getCost() + "0\n";
     }
 }
