@@ -30,5 +30,6 @@ public class MattSchneidermanGroceryList{
             myList +=  "Item : " + (i + 1) + "\t" + list[i].toString();
         }
         return myList;
+        //ADD: total cost of everything that is in the basket
     }
 }
