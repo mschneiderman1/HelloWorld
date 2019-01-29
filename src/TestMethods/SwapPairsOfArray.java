@@ -4,10 +4,7 @@ import java.util.Arrays;
 
 public class SwapPairsOfArray{
     public static void main(String[] args){
-        String[] a = {"four", "score", "and", "seve","yea", "e" +
-                "" +
-                "" +
-                ""};
+        String[] a = {"four", "score", "and", "seve","yea", "e"};
         swapPairs(a);
     }
     public static void swapPairs(String[] a){
