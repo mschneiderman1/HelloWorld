@@ -16,6 +16,7 @@ public class Vocabulary1 {
         ArrayList<String> list2 = getWords(input2);
         System.out.println(list2);
         ArrayList<String> overlap = overlap(list1, list2);
+        System.out.println(overlap);
 
     }
     // This method reads in all the data from an external file
@@ -44,22 +45,20 @@ public class Vocabulary1 {
     }
     public static ArrayList<String> overlap(ArrayList<String> list1, ArrayList<String> list2){
         ArrayList<String> match = new ArrayList<String>();
-        int count1, count2 = 0;
-        ArrayList<String> larger = new ArrayList<String>;
-        if(list1.size() >= list2.size()){
-            larger = list1;
-        }else{
-            larger = list2;
-        }
-        while(larger.size() != count1){
+        int count1 = 0;
+        int count2 = 0;
+        while(list1.size() > count1 && list2.size() > count2){
             if(list1.get(count1).equals(list2.get(count2))){
                 match.add(list1.get(count1));
                 count1++;
                 count2++;
-            } else if(list1.get(count1).compareTo(list2.get(count2)){
-
+            } else if((list1.get(count1).compareTo(list2.get(count2)) < 0)){
+                count1++;
+            }else{
+                count2++;
             }
 
         }
+        return match;
     }
 }
