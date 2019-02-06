@@ -20,17 +20,17 @@ public class Vocabulary2 {
         Scanner input2 = new Scanner(new File(file2));
 
         ArrayList<String> list1 = getWords(input1);
-        System.out.println(file1 + ": " + list1);
+        //System.out.println(file1 + ": " + list1);
         ArrayList<String> list2 = getWords(input2);
-        System.out.println(file2 + ": " + list2);
+        //System.out.println(file2 + ": " + list2);
         ArrayList<String> overlap = overlap(list1, list2);
-        System.out.println("Overlap: " + overlap);
+        //System.out.println("Overlap: " + overlap);
         System.out.println(file1 + ": " + list1.size());
-        System.out.println(file2 + ":" + list1.size());
+        System.out.println(file2 + ": " + list2.size());
         double list1Percent = getPercentOverlap(overlap, list1);
-        System.out.println(file1 + " Overlap Percent: " + list1Percent + "%");
+        System.out.println("Percentage of " + file1 + " overlap: " + list1Percent + "%");
         double list2Percent = getPercentOverlap(overlap, list2);
-        System.out.println(file2 + " Overlap Percent: " + list2Percent + "%");
+        System.out.println("Percentage of " + file2 + " overlap: " + list2Percent + "%");
 
     }
     // This method reads in all the data from an external file
