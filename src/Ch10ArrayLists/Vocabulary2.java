@@ -25,6 +25,8 @@ public class Vocabulary2 {
         System.out.println(file2 + ": " + list2);
         ArrayList<String> overlap = overlap(list1, list2);
         System.out.println("Overlap: " + overlap);
+        System.out.println(file1 + ": " + list1.size());
+        System.out.println(file2 + ":" + list1.size());
         double list1Percent = getPercentOverlap(overlap, list1);
         System.out.println(file1 + " Overlap Percent: " + list1Percent + "%");
         double list2Percent = getPercentOverlap(overlap, list2);
