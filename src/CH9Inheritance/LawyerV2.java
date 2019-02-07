@@ -1,20 +1,19 @@
 package CH9Inheritance;
 
-public class MarketerV1 {
+public class LawyerV2 {
     public int getHours(){
         return 40; // works 40 hours per week
     }
 
     public double getSalary(){
-        return 50000.0; //$50,000 a year
+        return 40000.0; //$40,000 a year
     }
 
     public int getVacationDays(){
-        return 10;  //2 weeks paid vacation
+        return 15;  //3 weeks paid vacation
     }
 
     public String getVacationForm(){
-        return "yellow"; //use the yellow form for leave
+        return "pink"; //use the pink form for leave
     }
-
 }
