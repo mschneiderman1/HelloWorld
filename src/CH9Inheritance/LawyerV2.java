@@ -1,15 +1,10 @@
 package CH9Inheritance;
 
-public class LawyerV2 {
-    public int getHours(){
-        return 40; // works 40 hours per week
-    }
+public class LawyerV2 extends EmployeeV2 {
+   //inherit methods from Employee class
 
-    public double getSalary(){
 
-        return 40000.0; //$40,000 a year
-    }
-
+    //Overrides methods from employee class
     public int getVacationDays(){
 
         return 15;  //3 weeks paid vacation
