@@ -7,16 +7,17 @@ package CH9Inheritance;
 
 public class MyLawFirmV3 {
     public static void main(String[] args){
-        EmployeeV2[] myEmployees = {new LegalSecretaryV2(),
-                new MarketerV2(),
-                new LawyerV2()};
+        EmployeeV3[] myEmployees = {new LegalSecretaryV3("Tom"),
+                new MarketerV3("Jonny"),
+                new LawyerV3("Henry")};
 
         printInfo(myEmployees);
     }
 
-    public static void printInfo(EmployeeV2[] myEmployees){
+    public static void printInfo(EmployeeV3[] myEmployees){
            //Data type  //iterator  //container
-        for (EmployeeV2 staff: myEmployees){
+        for (EmployeeV3 staff: myEmployees){
+            System.out.println("Name: " + staff.getName());
             System.out.println("Salary: " + staff.getSalary());
             System.out.println("V. Days: " + staff.getVacationDays());
             System.out.println("V. Form: " + staff.getVacationForm());

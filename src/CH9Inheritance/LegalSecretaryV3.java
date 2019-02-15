@@ -1,8 +1,8 @@
 package CH9Inheritance;
 
 public class LegalSecretaryV3 extends SecretaryV3{
-    public LegalSecretaryV3(String input) {
-        super(input);
+    public LegalSecretaryV3(String name) {
+        super(name);
     }
 
     public double getSalary() {

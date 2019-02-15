@@ -2,10 +2,10 @@
 package CH9Inheritance;
 
 public class EmployeeV3 {
-    private static String name;
+    private String name;
 
-    public EmployeeV3(String input){
-        this.name = input;
+    public EmployeeV3(String name){
+        this.name = name;
     }
 
     public String getName(){

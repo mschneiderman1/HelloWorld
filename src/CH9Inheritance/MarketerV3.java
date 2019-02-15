@@ -2,8 +2,8 @@ package CH9Inheritance;
 
 public class MarketerV3 extends EmployeeV3 {
 
-    public MarketerV3(String input) {
-        super(input);
+    public MarketerV3(String name) {
+        super(name);
     }
 
     public double getSalary(){
