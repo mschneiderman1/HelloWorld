@@ -3,12 +3,18 @@ package CH9Inheritance;
 
 public class EmployeeV3 {
     private String name;
+    private int experience;
 
-    public EmployeeV3(String name){
+    public EmployeeV3(String name, int expierence){
         this.name = name;
+        this.experience = expierence;
     }
 
+    public int getExperience(){
+        return experience;
+    }
     public String getName(){
+
         return name;
     }
 

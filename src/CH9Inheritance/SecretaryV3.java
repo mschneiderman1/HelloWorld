@@ -2,8 +2,9 @@ package CH9Inheritance;
 
 public class SecretaryV3 extends EmployeeV3{
 
-    public SecretaryV3(String input) {
-        super(input);
+    public SecretaryV3(String input, int experience) {
+
+        super(input, experience);
     }
 
     public void takeDictation(String text){

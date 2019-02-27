@@ -2,8 +2,8 @@ package CH9Inheritance;
 
 public class LawyerV3 extends EmployeeV3 {
 
-    public LawyerV3(String name) {
-        super(name);
+    public LawyerV3(String name, int experience) {
+        super(name, experience);
     }
     //inherit methods from Employee class
 
