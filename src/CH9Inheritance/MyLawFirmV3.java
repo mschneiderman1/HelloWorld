@@ -18,6 +18,7 @@ public class MyLawFirmV3 {
            //Data type  //iterator  //container
         for (EmployeeV3 staff: myEmployees){
             System.out.println("Name: " + staff.getName());
+            System.out.println("Work experience: " + staff.getExperience());
             System.out.println("Salary: " + staff.getSalary());
             System.out.println("V. Days: " + staff.getVacationDays());
             System.out.println("V. Form: " + staff.getVacationForm());
