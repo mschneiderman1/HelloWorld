@@ -1,6 +1,8 @@
 package Ch8Classes;
-
-public class PointV4{
+//This class is  a template to represent a Point on
+//the cartesian coordinate plane. This version overrides
+// the calls Object's equal method
+public class PointV5 {
     private int x;
     private int y;
     private static int objectCount; //static fields reside at the class level not at the object level
@@ -8,12 +10,12 @@ public class PointV4{
     //This is the constructor
     //A constructor does NOT have a return type
     //it gets called implicitly when an object is created
-    public PointV4(int x, int y){
+    public PointV5(int x, int y){
         objectCount++;
         this.x = x;
         this.y = y;
     }
-    public PointV4(){
+    public PointV5(){
         objectCount++;
         x = 0;
         y = 0;
@@ -51,7 +53,7 @@ public class PointV4{
     public int getY(){
         return y;
     }
-    public double distance(PointV4 other){
+    public double distance(PointV5 other){
         int dx = x - other.x;
         int dy = y - other.y;
         return Math.sqrt((dx*dx) + (dy * dy));
@@ -64,5 +66,13 @@ public class PointV4{
     public String toString(){
 
         return "(" + x + "," + y + ")";
+    }
+
+    public boolean equals(Object name){
+        if(name instanceof PointV5) {
+            PointV5 point = (PointV5) name;
+            return this.getX() == point.getX() && this.getY() == point.getY();
+        }
+        return false;
     }
 }
