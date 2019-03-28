@@ -14,5 +14,10 @@ public class SwapPairsOfArray{
             a[i + 1] = temp;
         }
         System.out.println(Arrays.toString(a));
+        String x = null;
+        //if(x.equals(null)){
+         //   System.out.println("yes");
+
+       // }
     }
 }
