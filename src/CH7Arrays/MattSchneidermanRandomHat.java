@@ -1,6 +1,4 @@
-package Chapter7Arrays;
-
-import java.util.Arrays;
+package CH7Arrays;
 
 public class MattSchneidermanRandomHat {
     public static void main(String[] args){

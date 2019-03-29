@@ -1,5 +1,4 @@
-package Chapter7Arrays;
-import java.util.Arrays;
+package CH7Arrays;
 
 public class Arrays2D {
     public static void main(String[] args){

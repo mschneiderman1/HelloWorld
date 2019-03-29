@@ -1,4 +1,4 @@
-package Chapter7Arrays;
+package CH7Arrays;
 
 import java.io.File;
 import java.io.FileNotFoundException;

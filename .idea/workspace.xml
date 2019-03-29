@@ -5,10 +5,37 @@
     <option name="CUSTOM_SCOPE_NAME" value="New" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="102896c4-baba-45d8-b7ff-c4fea32f7ef5" name="Default Changelist" comment="Financial Classes. March 22th">
+    <list default="true" id="102896c4-baba-45d8-b7ff-c4fea32f7ef5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CH12Recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CH12Recursion/RecursiveFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CH9Inheritance/FinancialClasses/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH9Inheritance/FinancialClasses/Asset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestMethods/SwapPairsOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMethods/SwapPairsOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/ArrayTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/Arrays2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/ArraysPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/MattSchneidermanPersonality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/MattSchneidermanRandomHat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/MattSchneidermanRandomHatV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/MattSchneidermanSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/MattSchneidermanWeatherAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/MattSchneidermanWeatherAnalysisV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/Names.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/PracticeIt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/Chapter7Arrays/Random.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/TestMethods/SwapPairsOfArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCS/TestMethods/SwapPairsOfArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/TestMethods/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCS/TestMethods/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/ArrayTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/ArrayTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/Arrays2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/Arrays2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/ArraysPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/ArraysPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/MattSchneidermanPersonality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/MattSchneidermanPersonality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/MattSchneidermanRandomHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/MattSchneidermanRandomHat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/MattSchneidermanRandomHatV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/MattSchneidermanRandomHatV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/MattSchneidermanSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/MattSchneidermanSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/MattSchneidermanWeatherAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/MattSchneidermanWeatherAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/MattSchneidermanWeatherAnalysisV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/MattSchneidermanWeatherAnalysisV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/Names.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/PracticeIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/PracticeIt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7Arrays/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH7Arrays/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestMethods/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMethods/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +69,7 @@
           <entry key="element-list" value="2" />
           <entry key="html" value="10" />
           <entry key="iml" value="5" />
-          <entry key="java" value="213" />
+          <entry key="java" value="216" />
           <entry key="js" value="6" />
           <entry key="png" value="6" />
           <entry key="txt" value="18" />
@@ -56,7 +83,7 @@
           <entry key="HTML" value="10" />
           <entry key="IDEA_MODULE" value="5" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="213" />
+          <entry key="JAVA" value="216" />
           <entry key="JavaScript" value="6" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="XML" value="3" />
@@ -64,9 +91,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="40" />
+          <entry key="dummy" value="41" />
           <entry key="iml" value="15" />
-          <entry key="java" value="33426" />
+          <entry key="java" value="34437" />
           <entry key="js" value="1" />
           <entry key="txt" value="206" />
         </counts>
@@ -74,9 +101,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="15" />
-          <entry key="JAVA" value="33426" />
+          <entry key="JAVA" value="34437" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="246" />
+          <entry key="PLAIN_TEXT" value="247" />
         </counts>
       </usages-collector>
     </session>
@@ -98,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CH9Inheritance/FinancialClasses/ShareAsset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="44">
+              <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
               <folding>
                 <element signature="e#802#803#0" expanded="true" />
                 <element signature="e#852#853#0" expanded="true" />
@@ -122,14 +149,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CH9Inheritance/FinancialClasses/MutualFund.java">
+        <entry file="file://$PROJECT_DIR$/src/TestMethods/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#158#166#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CH12Recursion/RecursiveFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CH12Recursion/Factorial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -200,6 +248,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -211,9 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CH9Inheritance/LegalSecretaryV1.java" />
-        <option value="$PROJECT_DIR$/src/CH9Inheritance/LawyerV2.java" />
-        <option value="$PROJECT_DIR$/src/CH9Inheritance/MarketerV2.java" />
         <option value="$PROJECT_DIR$/src/CH9Inheritance/SecretaryV2.java" />
         <option value="$PROJECT_DIR$/src/CH9Inheritance/LegalSecretaryV2.java" />
         <option value="$PROJECT_DIR$/src/CH9Inheritance/MyLawFirm.java" />
@@ -232,7 +278,6 @@
         <option value="$PROJECT_DIR$/src/TestMethods/Sleet.java" />
         <option value="$PROJECT_DIR$/src/TestMethods/Fog.java" />
         <option value="$PROJECT_DIR$/src/TestMethods/Rain.java" />
-        <option value="$PROJECT_DIR$/src/TestMethods/Test.java" />
         <option value="$PROJECT_DIR$/src/Ch8Classes/PointV4.java" />
         <option value="$PROJECT_DIR$/src/Ch8Classes/PointV1.java" />
         <option value="$PROJECT_DIR$/src/Ch8Classes/PointClientV5.java" />
@@ -262,6 +307,10 @@
         <option value="$PROJECT_DIR$/src/CH9Inheritance/FinancialClasses/AssetExample.java" />
         <option value="$PROJECT_DIR$/src/CH9Inheritance/FinancialClasses/Asset.java" />
         <option value="$PROJECT_DIR$/src/TestMethods/SwapPairsOfArray.java" />
+        <option value="$PROJECT_DIR$/src/TestMethods/Test.java" />
+        <option value="$PROJECT_DIR$/src/CH12Recursion/RecusiveFunctions.java" />
+        <option value="$PROJECT_DIR$/src/CH12Recursion/RecursiveFunctions.java" />
+        <option value="$PROJECT_DIR$/src/CH12Recursion/Factorial.java" />
       </list>
     </option>
   </component>
@@ -295,13 +344,7 @@
               <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APCS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CH9Inheritance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TestMethods" type="462c0819:PsiDirectoryNode" />
+              <item name="CH12Recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +355,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="com&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Comparable.java&#10;Compara&#9;PSI&#9;JAVA://java.lang.Comparable&#10;compareTo&#9;PSI&#9;JAVA://com.sun.jndi.ldap.LdapName.Rdn#compareTo&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;colle&#9;PSI&#9;JAVA://java.util.Collection&#10;.git&#9;FILE&#9;file:///Users/mattschneiderman/Google Drive/APCS/exportToHTML/.gitignore.html&#10;integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;ArrayList&#9;PSI&#9;JAVA://java.util.Arrays.ArrayList&#10;api&#9;PSI&#9;JAVA://com.sun.tools.javac.util.DefinedBy.Api&#10;arra&#9;PSI&#9;JAVA://Chapter7Arrays.MattSchneidermanSum#createArray" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553779249593" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553867534947" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
@@ -342,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SwapPairsOfArray">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="AssetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CH9Inheritance.FinancialClasses.AssetExample" />
       <module name="APCS" />
@@ -356,12 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointClientV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch8Classes.PointClientV5" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CH12Recursion.Factorial" />
       <module name="APCS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch8Classes.*" />
+          <option name="PATTERN" value="CH12Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,25 +412,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeClientV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CH9Inheritance.Interfaces.ShapeClientV1" />
+    <configuration name="RecursiveFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CH12Recursion.RecursiveFunctions" />
       <module name="APCS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CH9Inheritance.Interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShapeClientV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CH9Inheritance.Interfaces.ShapeClientV2" />
-      <module name="APCS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CH9Inheritance.Interfaces.*" />
+          <option name="PATTERN" value="CH12Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,20 +438,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMethods.Test" />
+      <module name="APCS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.PointClientV5" />
-      <item itemvalue="Application.ShapeClientV1" />
-      <item itemvalue="Application.ShapeClientV2" />
       <item itemvalue="Application.AssetExample" />
       <item itemvalue="Application.SwapPairsOfArray" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.RecursiveFunctions" />
+      <item itemvalue="Application.Factorial" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.RecursiveFunctions" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.SwapPairsOfArray" />
         <item itemvalue="Application.AssetExample" />
-        <item itemvalue="Application.ShapeClientV2" />
-        <item itemvalue="Application.ShapeClientV1" />
-        <item itemvalue="Application.PointClientV5" />
       </list>
     </recent_temporary>
   </component>
@@ -435,13 +478,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543593948218</updated>
-    </task>
-    <task id="LOCAL-00027" summary="add">
-      <created>1545403900707</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1545403900707</updated>
     </task>
     <task id="LOCAL-00028" summary="add">
       <created>1545404418810</created>
@@ -779,7 +815,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553263267917</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Financial Classes. March 22th">
+      <created>1553779344525</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1553779344525</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -793,8 +836,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -803,7 +847,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.29355282" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.29355282" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3978052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -811,7 +855,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32784638" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32784638" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.32825485" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.32784638" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -863,7 +907,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chapter7Arrays/MattSchneidermanRandomHatV2.java</url>
+          <url>file://$PROJECT_DIR$/src/CH7Arrays/MattSchneidermanRandomHatV2.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="8" />
@@ -872,20 +916,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CH9Inheritance/EmployeeV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch8Classes/MattSchneidermanProject6MovieCollection/MattSchneidermanMovieCollectionClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ch8Classes/MattSchneidermanProject6MovieCollection/MattSchneidermanDVDCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -926,13 +956,6 @@
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestMethods/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1292,8 +1315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CH9Inheritance/FinancialClasses/ShareAsset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="44">
+          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
           <folding>
             <element signature="e#802#803#0" expanded="true" />
             <element signature="e#852#853#0" expanded="true" />
@@ -1308,6 +1331,34 @@
             <element signature="e#1443#1444#0" expanded="true" />
             <element signature="e#1476#1477#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestMethods/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#158#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CH12Recursion/RecursiveFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CH12Recursion/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
