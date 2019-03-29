@@ -1,7 +1,5 @@
 package Ch8Classes.GroceryProject;
 
-import Ch8Classes.MattSchneidermanBankAccountV2;
-
 public class MattSchneidermanGroceryList{
     public static final int MAX_ITEMS = 10;
     //state fields

@@ -1,7 +1,5 @@
 package CH9Inheritance.Interfaces;
 
-import java.lang.reflect.Array;
-
 public class ShapeClientV1 {
     public static void main(String[] args) {
         ShapeV1[] shapes = {new Circle(5),
