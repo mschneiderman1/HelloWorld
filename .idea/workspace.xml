@@ -5,9 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="New" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="102896c4-baba-45d8-b7ff-c4fea32f7ef5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="102896c4-baba-45d8-b7ff-c4fea32f7ef5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +17,9 @@
     <session id="-131805058">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="2" />
@@ -31,7 +29,7 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,7 +65,7 @@
         <counts>
           <entry key="dummy" value="41" />
           <entry key="iml" value="28" />
-          <entry key="java" value="36795" />
+          <entry key="java" value="36800" />
           <entry key="js" value="1" />
           <entry key="txt" value="235" />
         </counts>
@@ -75,7 +73,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="28" />
-          <entry key="JAVA" value="36795" />
+          <entry key="JAVA" value="36800" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="276" />
         </counts>
@@ -118,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CH12Recursion/Pow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -190,8 +188,8 @@
         <option value="$PROJECT_DIR$/src/CH9Inheritance/Shapes/JavaFiles/Cube.java" />
         <option value="$PROJECT_DIR$/src/CH12Recursion/RecursiveFunctions.java" />
         <option value="$PROJECT_DIR$/APCS.iml" />
-        <option value="$PROJECT_DIR$/src/CH12Recursion/Pow.java" />
         <option value="$PROJECT_DIR$/src/CH12Recursion/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/CH12Recursion/Pow.java" />
       </list>
     </option>
   </component>
@@ -208,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -231,10 +230,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
@@ -242,7 +241,7 @@
     <property name="SearchEverywhereHistoryKey" value="JavaDoc &#9;PSI&#9;JAVA://com.sun.tools.javadoc.resources.javadoc&#10;com&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Comparable.java&#10;Compara&#9;PSI&#9;JAVA://java.lang.Comparable&#10;compareTo&#9;PSI&#9;JAVA://com.sun.jndi.ldap.LdapName.Rdn#compareTo&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;colle&#9;PSI&#9;JAVA://java.util.Collection&#10;.git&#9;FILE&#9;file:///Users/mattschneiderman/Google Drive/APCS/exportToHTML/.gitignore.html&#10;integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;ArrayList&#9;PSI&#9;JAVA://java.util.Arrays.ArrayList&#10;api&#9;PSI&#9;JAVA://com.sun.tools.javac.util.DefinedBy.Api&#10;arra&#9;PSI&#9;JAVA://Chapter7Arrays.MattSchneidermanSum#createArray" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554128524073" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -364,27 +363,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543593948218</updated>
-    </task>
-    <task id="LOCAL-00034" summary="add">
-      <created>1546128786564</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1546128786564</updated>
-    </task>
-    <task id="LOCAL-00035" summary="add">
-      <created>1546537374322</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1546537374322</updated>
-    </task>
-    <task id="LOCAL-00036" summary="add">
-      <created>1546538228356</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1546538228356</updated>
     </task>
     <task id="LOCAL-00037" summary="add">
       <created>1546538543382</created>
@@ -708,7 +686,28 @@
       <option name="project" value="LOCAL" />
       <updated>1554156420264</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Recursive Classes Chapter 12">
+      <created>1554156679742</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1554156679742</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Recursive Classes Chapter 12">
+      <created>1554156881301</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1554156881301</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Recursive Classes Chapter 12">
+      <created>1554157803603</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1554157803603</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -722,8 +721,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22174536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22460657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1132,8 +1132,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CH12Recursion/Pow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
