@@ -18,7 +18,7 @@ public class Pow{
         if(x == 1){
             return n;
         }else{
-            return recursivePow(n, x - 1) * n;
+            return recursivePow(n, x - 1) * n*n;
         }
     }
 }
