@@ -1,7 +1,5 @@
 package CH12Recursion;
 
-import java.util.Scanner;
-
 public class Pow{
     public static void main(String[] args){
         System.out.println(iterativePow(4,5) + " " + recursivePow(4, 5));
