@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="102896c4-baba-45d8-b7ff-c4fea32f7ef5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CH12Recursion/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CH12Recursion/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH12Recursion/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestMethods/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCS/TestMethods/Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +44,7 @@
           <entry key="element-list" value="2" />
           <entry key="html" value="12" />
           <entry key="iml" value="6" />
-          <entry key="java" value="252" />
+          <entry key="java" value="253" />
           <entry key="js" value="7" />
           <entry key="png" value="6" />
           <entry key="properties" value="1" />
@@ -59,7 +59,7 @@
           <entry key="HTML" value="12" />
           <entry key="IDEA_MODULE" value="6" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="252" />
+          <entry key="JAVA" value="253" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="Properties" value="1" />
@@ -71,18 +71,18 @@
           <entry key="dummy" value="41" />
           <entry key="html" value="6" />
           <entry key="iml" value="28" />
-          <entry key="java" value="38967" />
+          <entry key="java" value="39885" />
           <entry key="js" value="1" />
-          <entry key="txt" value="236" />
+          <entry key="txt" value="262" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="6" />
           <entry key="IDEA_MODULE" value="28" />
-          <entry key="JAVA" value="38967" />
+          <entry key="JAVA" value="39885" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="277" />
+          <entry key="PLAIN_TEXT" value="303" />
         </counts>
       </usages-collector>
     </session>
@@ -111,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CH12Recursion/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -120,11 +120,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ch8Classes/MattSchneidermanClientCodeHw1211.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CH12Recursion/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TestMethods/Fog.java" />
         <option value="$PROJECT_DIR$/src/TestMethods/Rain.java" />
         <option value="$PROJECT_DIR$/src/Ch8Classes/PointV4.java" />
         <option value="$PROJECT_DIR$/src/Ch8Classes/PointV1.java" />
@@ -252,6 +254,7 @@
         <option value="$PROJECT_DIR$/src/TestMethods/Test.java" />
         <option value="$PROJECT_DIR$/src/TestMethods/Questionnaire.java" />
         <option value="$PROJECT_DIR$/src/CH12Recursion/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/CH12Recursion/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -349,7 +352,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="apcs" />
     <property name="SearchEverywhereHistoryKey" value="Mth&#9;PSI&#9;JAVA://sun.nio.cs.ext.MacThai&#10;Math.pow&#9;null&#9;null&#10;Math&#9;PSI&#9;JAVA://sun.text.normalizer.UCharacterProperty#MATH_PROPERTY_&#10;JavaDoc &#9;PSI&#9;JAVA://com.sun.tools.javadoc.resources.javadoc&#10;com&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Comparable.java&#10;Compara&#9;PSI&#9;JAVA://java.lang.Comparable&#10;compareTo&#9;PSI&#9;JAVA://com.sun.jndi.ldap.LdapName.Rdn#compareTo&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;colle&#9;PSI&#9;JAVA://java.util.Collection&#10;.git&#9;FILE&#9;file:///Users/mattschneiderman/Google Drive/APCS/exportToHTML/.gitignore.html&#10;integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;ArrayList&#9;PSI&#9;JAVA://java.util.Arrays.ArrayList&#10;api&#9;PSI&#9;JAVA://com.sun.tools.javac.util.DefinedBy.Api&#10;arra&#9;PSI&#9;JAVA://Chapter7Arrays.MattSchneidermanSum#createArray" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554903833542" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554990960596" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
@@ -380,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CH12Recursion.BinarySearch" />
       <module name="APCS" />
@@ -396,6 +399,19 @@
     </configuration>
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CH12Recursion.Factorial" />
+      <module name="APCS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CH12Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CH12Recursion.MergeSort" />
       <module name="APCS" />
       <extension name="coverage">
         <pattern>
@@ -433,33 +449,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapesClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CH9Inheritance.Shapes.JavaFiles.ShapesClient" />
-      <module name="APCS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CH9Inheritance.Shapes.JavaFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.RecursiveFunctions" />
       <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.ShapesClient" />
       <item itemvalue="Application.Pow" />
       <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Pow" />
         <item itemvalue="Application.RecursiveFunctions" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.ShapesClient" />
       </list>
     </recent_temporary>
   </component>
@@ -473,13 +476,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543593948218</updated>
-    </task>
-    <task id="LOCAL-00040" summary="add">
-      <created>1546613472598</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1546613472598</updated>
     </task>
     <task id="LOCAL-00041" summary="add">
       <created>1547564136107</created>
@@ -817,7 +813,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554386188920</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Recursive Classes Chapter 12 (Recursive Binary Search)">
+      <created>1554904260996</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1554904260997</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -842,7 +845,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.29281768" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.29281768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3978052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -897,7 +900,8 @@
     <MESSAGE value="Financial Classes. March 20th" />
     <MESSAGE value="Financial Classes. March 22th" />
     <MESSAGE value="Recursive Classes Chapter 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursive Classes Chapter 12" />
+    <MESSAGE value="Recursive Classes Chapter 12 (Recursive Binary Search)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursive Classes Chapter 12 (Recursive Binary Search)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -912,13 +916,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CH9Inheritance/Interfaces/ShapeClientV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CH9Inheritance/Interfaces/RectangleV2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1242,6 +1239,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CH12Recursion/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
