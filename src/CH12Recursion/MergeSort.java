@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeSort{
     public static void main(String[] args){
-        int[] array = {5, 10, 12, 2, 9, 6, 13};
+        int[] array = {5, 10, 12, 2, 9, 6, -111};
         System.out.println(Arrays.toString(array));
         mergeSort(array);
         System.out.println(Arrays.toString(array));
@@ -35,7 +35,6 @@ public class MergeSort{
              }else{
                  array[i] = right[i2];
                  i2++;
-
              }
         }
     }
