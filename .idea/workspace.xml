@@ -6,7 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="102896c4-baba-45d8-b7ff-c4fea32f7ef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CH12Recursion/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,10 +66,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="41" />
+          <entry key="dummy" value="63" />
           <entry key="html" value="13" />
           <entry key="iml" value="28" />
-          <entry key="java" value="40977" />
+          <entry key="java" value="41044" />
           <entry key="js" value="1" />
           <entry key="txt" value="272" />
         </counts>
@@ -79,9 +78,9 @@
         <counts>
           <entry key="HTML" value="13" />
           <entry key="IDEA_MODULE" value="28" />
-          <entry key="JAVA" value="40977" />
+          <entry key="JAVA" value="41044" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="313" />
+          <entry key="PLAIN_TEXT" value="335" />
         </counts>
       </usages-collector>
     </session>
@@ -98,13 +97,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CH12Recursion/SelectionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanSelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -199,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Ch8Classes/PointV1.java" />
         <option value="$PROJECT_DIR$/src/Ch8Classes/PointClientV5.java" />
         <option value="$PROJECT_DIR$/src/Ch8Classes/PointV5.java" />
         <option value="$PROJECT_DIR$/src/CH9Inheritance/Shape.java" />
@@ -250,6 +245,7 @@
         <option value="$PROJECT_DIR$/exportToHTML/.gitignore.html" />
         <option value="$PROJECT_DIR$/src/CH12Recursion/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/CH12Recursion/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanSelectionSort.java" />
       </list>
     </option>
   </component>
@@ -337,12 +333,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CH7Arrays" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APCS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CH12Recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -358,7 +348,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="apcs" />
     <property name="SearchEverywhereHistoryKey" value="Mth&#9;PSI&#9;JAVA://sun.nio.cs.ext.MacThai&#10;Math.pow&#9;null&#9;null&#10;Math&#9;PSI&#9;JAVA://sun.text.normalizer.UCharacterProperty#MATH_PROPERTY_&#10;JavaDoc &#9;PSI&#9;JAVA://com.sun.tools.javadoc.resources.javadoc&#10;com&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Comparable.java&#10;Compara&#9;PSI&#9;JAVA://java.lang.Comparable&#10;compareTo&#9;PSI&#9;JAVA://com.sun.jndi.ldap.LdapName.Rdn#compareTo&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;colle&#9;PSI&#9;JAVA://java.util.Collection&#10;.git&#9;FILE&#9;file:///Users/mattschneiderman/Google Drive/APCS/exportToHTML/.gitignore.html&#10;integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;ArrayList&#9;PSI&#9;JAVA://java.util.Arrays.ArrayList&#10;api&#9;PSI&#9;JAVA://com.sun.tools.javac.util.DefinedBy.Api&#10;arra&#9;PSI&#9;JAVA://Chapter7Arrays.MattSchneidermanSum#createArray" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556124591489" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556159214159" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
@@ -482,13 +472,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543593948218</updated>
-    </task>
-    <task id="LOCAL-00046" summary="add">
-      <created>1548428026400</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1548428026400</updated>
     </task>
     <task id="LOCAL-00047" summary="add">
       <created>1548428068536</created>
@@ -826,7 +809,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555075727321</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Recursive Classes Chapter 12 (Merge Sort)">
+      <created>1556124651387</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1556124651387</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -840,9 +830,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -851,7 +840,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.29281768" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.29281768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3978052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1249,13 +1238,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CH12Recursion/SelectionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanSelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
