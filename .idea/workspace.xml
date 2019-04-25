@@ -6,7 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="102896c4-baba-45d8-b7ff-c4fea32f7ef5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanInsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanSelectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +44,7 @@
           <entry key="element-list" value="2" />
           <entry key="html" value="13" />
           <entry key="iml" value="6" />
-          <entry key="java" value="257" />
+          <entry key="java" value="258" />
           <entry key="js" value="7" />
           <entry key="png" value="6" />
           <entry key="properties" value="1" />
@@ -57,7 +59,7 @@
           <entry key="HTML" value="13" />
           <entry key="IDEA_MODULE" value="6" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="257" />
+          <entry key="JAVA" value="258" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="Properties" value="1" />
@@ -69,7 +71,7 @@
           <entry key="dummy" value="63" />
           <entry key="html" value="13" />
           <entry key="iml" value="28" />
-          <entry key="java" value="41044" />
+          <entry key="java" value="41189" />
           <entry key="js" value="1" />
           <entry key="txt" value="272" />
         </counts>
@@ -78,7 +80,7 @@
         <counts>
           <entry key="HTML" value="13" />
           <entry key="IDEA_MODULE" value="28" />
-          <entry key="JAVA" value="41044" />
+          <entry key="JAVA" value="41189" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="335" />
         </counts>
@@ -96,11 +98,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanSelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanInsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -125,15 +136,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CH12Recursion/Pow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CH7Arrays/MattSchneidermanRandomHat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -195,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Ch8Classes/PointClientV5.java" />
         <option value="$PROJECT_DIR$/src/Ch8Classes/PointV5.java" />
         <option value="$PROJECT_DIR$/src/CH9Inheritance/Shape.java" />
         <option value="$PROJECT_DIR$/src/CH9Inheritance/ShapeV1.java" />
@@ -246,6 +247,7 @@
         <option value="$PROJECT_DIR$/src/CH12Recursion/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/CH12Recursion/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanSelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanInsertionSort.java" />
       </list>
     </option>
   </component>
@@ -333,6 +335,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CH7Arrays" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="APCS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APCS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CH12Recursion" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -348,7 +356,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="apcs" />
     <property name="SearchEverywhereHistoryKey" value="Mth&#9;PSI&#9;JAVA://sun.nio.cs.ext.MacThai&#10;Math.pow&#9;null&#9;null&#10;Math&#9;PSI&#9;JAVA://sun.text.normalizer.UCharacterProperty#MATH_PROPERTY_&#10;JavaDoc &#9;PSI&#9;JAVA://com.sun.tools.javadoc.resources.javadoc&#10;com&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Comparable.java&#10;Compara&#9;PSI&#9;JAVA://java.lang.Comparable&#10;compareTo&#9;PSI&#9;JAVA://com.sun.jndi.ldap.LdapName.Rdn#compareTo&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;colle&#9;PSI&#9;JAVA://java.util.Collection&#10;.git&#9;FILE&#9;file:///Users/mattschneiderman/Google Drive/APCS/exportToHTML/.gitignore.html&#10;integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;ArrayList&#9;PSI&#9;JAVA://java.util.Arrays.ArrayList&#10;api&#9;PSI&#9;JAVA://com.sun.tools.javac.util.DefinedBy.Api&#10;arra&#9;PSI&#9;JAVA://Chapter7Arrays.MattSchneidermanSum#createArray" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556159214159" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556198672063" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
@@ -379,7 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MattSchneidermanSelectionSort">
+  <component name="RunManager">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CH12Recursion.BinarySearch" />
       <module name="APCS" />
@@ -472,13 +480,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543593948218</updated>
-    </task>
-    <task id="LOCAL-00047" summary="add">
-      <created>1548428068536</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1548428068536</updated>
     </task>
     <task id="LOCAL-00048" summary="add">
       <created>1548684289559</created>
@@ -816,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556124651387</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Recursive Classes Chapter 12 (Merge Sort)">
+      <created>1556197564009</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1556197564009</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -830,6 +838,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -912,13 +921,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CH9Inheritance/Interfaces/ShapeClientV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CH9Inheritance/EmployeeV1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1240,8 +1242,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanSelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CH12Recursion/MattSchneidermanInsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
